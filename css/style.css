@@ -6,6 +6,8 @@ body{
     font-family: "Outfit", sans-serif ;
     background-color:hsl(212, 22%, 86%);
     margin: 20%;
+    margin-bottom: 9%;
+    margin-top: 9%;
     text-align: center;
     font-size: 15px;
 }
@@ -23,11 +25,21 @@ img{
     border-radius:20px;
 }
 p{
-    color: hsl(220, 15%, 55%);
     font-size: 15px;
     padding: 0px 10px 0px 10px;
 }
-
+a{
+    color: hsl(220, 15%, 55%);
+    text-decoration: none;
+}
+a:visited{
+    color: hsl(220, 15%, 55%);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
 h1{
     font-size: 21px;
     color:hsl(218, 44%, 22%);
